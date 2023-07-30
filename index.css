@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    background-color: azure;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    width: 100vw;
+}
+
+#line {
+    width: 40%;
+    border-bottom: 2px solid grey;
+}
+
+.header p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 10px;
+}
+#myInput {
+    width: 120px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 2px;
+    font-size: 8px;
+}
+
+button {
+    height: 18px;
+    border-radius: 10px;
+    outline: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 10px;
+    border: 0px;
+}
+
+button:active {
+    background-color: rgb(182, 174, 174);
+}
+
+.main {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.output {
+    width: 180px;
+    height: 120px;
+    background-color: rgb(90, 74, 74);
+    border-radius: 20%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+#gifDisplay {
+    width: 100px;
+    height: 100px;
+}
+.Onclick {
+    background-position: center;
+    background-size: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(184, 175, 175);
+}
+#textDisplay {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: rgb(7, 218, 7);
+}
+
+
+#celciusDisplay {
+    margin-top: 5px;
+}
+
+#celciusDisplay, #fahneitDisplay {
+    font-size: 30px;
+    color: bisque;
+}
+
+.giphyDisplaOnclick {
+    width: 100px;
+    height: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap: 1px;
+    margin-top: 10px;
+}
+
+.footer button {
+    border-radius: 5px;
+}
+
+.footer button:active {
+    background-color: rgb(192, 161, 161);
+}
